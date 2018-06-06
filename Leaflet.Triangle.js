@@ -27,8 +27,8 @@ L.Triangle = L.Path.extend({
 		
 		this._centerPoint = this._map.latLngToLayerPoint(this._latlng);
 		this._leftPoint = this._map.latLngToLayerPoint( [ this._latlng.lat, this._latlng.lng - width ] );
-		this._rightPoint = this._map.latLngToLayerPoint( [ this._latlng.lat, this._latlng.lng + width ] ));
-		this._topPoint = this._map.latLngToLayerPoint( [ this._latlng.lat + height, this._latlng.lng] ));
+		this._rightPoint = this._map.latLngToLayerPoint( [ this._latlng.lat, this._latlng.lng + width ] );
+		this._topPoint = this._map.latLngToLayerPoint( [ this._latlng.lat + height, this._latlng.lng] );
 
 	},
 
